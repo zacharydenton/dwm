@@ -15,7 +15,7 @@ options:
 	@echo "CC       = ${CC}"
 
 .c.o:
-	${CC} -c ${CFLAGS} $<
+	${CC} -c -march=native -O3 ${CFLAGS} $<
 
 ${OBJ}: config.h config.mk
 
