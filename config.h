@@ -56,7 +56,7 @@ static const Layout layouts[] = {
 /* commands */
 static const char *dmenucmd[] = { "rofi", "-show", "run", NULL };
 static const char *termcmd[]  = { "st", NULL };
-static const char *browsercmd[] = { "google-chrome-stable", NULL };
+static const char *browsercmd[] = { "firefox", NULL };
 static const char *lockcmd[] = { "xscreensaver-command", "-lock", NULL };
 
 static Key keys[] = {
